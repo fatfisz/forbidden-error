@@ -1,0 +1,42 @@
+{
+  "name": "forbidden-error",
+  "version": "1.0.0",
+  "description": "A simple ForbiddenError constructor",
+  "main": "dist/index.js",
+  "jsnext:main": "lib/index.js",
+  "files": [
+    "dist",
+    "lib/**/*.js"
+  ],
+  "keywords": [
+    "error",
+    "exception",
+    "forbidden"
+  ],
+  "homepage": "https://github.com/fatfisz/forbidden-error",
+  "repository": "https://github.com/fatfisz/forbidden-error.git",
+  "author": {
+    "name": "FatFisz",
+    "url": "https://github.com/fatfisz"
+  },
+  "license": "WTFPL",
+  "scripts": {
+    "prepublish": "grunt prepublish"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^2.11.1",
+    "eslint-config-fatfisz": "^2.11.0",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^5.0.3",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-eslint": "^18.1.0",
+    "load-grunt-tasks": "^3.5.0"
+  },
+  "babel": {
+    "loose": [
+      "es6.classes"
+    ]
+  }
+}
